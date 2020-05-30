@@ -8,13 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+import SnapKit
+import Then
+
+final class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-
 }
-
