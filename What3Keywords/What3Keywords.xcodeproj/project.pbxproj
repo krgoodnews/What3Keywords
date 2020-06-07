@@ -17,6 +17,10 @@
 		E6134D00246D93EA00B938E2 /* What3KeywordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6134CFF246D93EA00B938E2 /* What3KeywordsTests.swift */; };
 		E6B2A8C5248000F20081E67E /* WritingThumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2A8C4248000F20081E67E /* WritingThumbnailCell.swift */; };
 		E6B2A8C82480062C0081E67E /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2A8C72480062C0081E67E /* UIView+.swift */; };
+		E6B2A8CB248321FF0081E67E /* Writing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2A8CA248321FF0081E67E /* Writing.swift */; };
+		E6B2A8CD248322C60081E67E /* WritingListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2A8CC248322C60081E67E /* WritingListController.swift */; };
+		E6B2A8CF24832ECB0081E67E /* WritingListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2A8CE24832ECB0081E67E /* WritingListViewModel.swift */; };
+		E6B2A8D1248347050081E67E /* WritingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2A8D0248347050081E67E /* WritingViewModel.swift */; };
 		F210840C3CD0E2F4A96B68E7 /* Pods_What3Keywords.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF0849661F16F9E6619C4EA /* Pods_What3Keywords.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +54,10 @@
 		E6134D01246D93EA00B938E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6B2A8C4248000F20081E67E /* WritingThumbnailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingThumbnailCell.swift; sourceTree = "<group>"; };
 		E6B2A8C72480062C0081E67E /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		E6B2A8CA248321FF0081E67E /* Writing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Writing.swift; sourceTree = "<group>"; };
+		E6B2A8CC248322C60081E67E /* WritingListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingListController.swift; sourceTree = "<group>"; };
+		E6B2A8CE24832ECB0081E67E /* WritingListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingListViewModel.swift; sourceTree = "<group>"; };
+		E6B2A8D0248347050081E67E /* WritingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +117,7 @@
 				E6134CEA246D93E800B938E2 /* SceneDelegate.swift */,
 				E6134CEC246D93E800B938E2 /* ViewController.swift */,
 				E6134CEE246D93E800B938E2 /* Main.storyboard */,
-				E6B2A8C4248000F20081E67E /* WritingThumbnailCell.swift */,
+				E6B2A8C9248321F40081E67E /* Writing */,
 				E6134CF1246D93E900B938E2 /* Assets.xcassets */,
 				E6134CF3246D93E900B938E2 /* LaunchScreen.storyboard */,
 				E6134CF6246D93E900B938E2 /* Info.plist */,
@@ -132,6 +140,18 @@
 				E6B2A8C72480062C0081E67E /* UIView+.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		E6B2A8C9248321F40081E67E /* Writing */ = {
+			isa = PBXGroup;
+			children = (
+				E6B2A8C4248000F20081E67E /* WritingThumbnailCell.swift */,
+				E6B2A8CA248321FF0081E67E /* Writing.swift */,
+				E6B2A8D0248347050081E67E /* WritingViewModel.swift */,
+				E6B2A8CC248322C60081E67E /* WritingListController.swift */,
+				E6B2A8CE24832ECB0081E67E /* WritingListViewModel.swift */,
+			);
+			path = Writing;
 			sourceTree = "<group>";
 		};
 		EA7630C594689A703659B447 /* Pods */ = {
@@ -313,6 +333,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6B2A8CB248321FF0081E67E /* Writing.swift in Sources */,
+				E6B2A8CF24832ECB0081E67E /* WritingListViewModel.swift in Sources */,
+				E6B2A8D1248347050081E67E /* WritingViewModel.swift in Sources */,
+				E6B2A8CD248322C60081E67E /* WritingListController.swift in Sources */,
 				E6134CED246D93E800B938E2 /* ViewController.swift in Sources */,
 				E6B2A8C5248000F20081E67E /* WritingThumbnailCell.swift in Sources */,
 				E6134CE9246D93E800B938E2 /* AppDelegate.swift in Sources */,

@@ -6,8 +6,11 @@ target 'What3Keywords' do
   use_frameworks!
 
   # Pods for What3Keywords
-    pod 'SnapKit', '~> 5.0.0'
-    pod 'Then'
+  pod 'RxSwift', '~> 5'
+  pod 'RxCocoa', '~> 5'
+
+  pod 'SnapKit', '~> 5.0.0'
+  pod 'Then'
 
   target 'What3KeywordsTests' do
     inherit! :search_paths
