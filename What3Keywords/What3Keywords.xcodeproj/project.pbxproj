@@ -15,10 +15,12 @@
 		E6134CF2246D93E900B938E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6134CF1246D93E900B938E2 /* Assets.xcassets */; };
 		E6134CF5246D93E900B938E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6134CF3246D93E900B938E2 /* LaunchScreen.storyboard */; };
 		E6134D00246D93EA00B938E2 /* What3KeywordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6134CFF246D93EA00B938E2 /* What3KeywordsTests.swift */; };
-		E6B2A8C5248000F20081E67E /* WritingThumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2A8C4248000F20081E67E /* WritingThumbnailCell.swift */; };
+		E64F4EB9248E1755007EEC75 /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64F4EB8248E1755007EEC75 /* WriteViewController.swift */; };
+		E6B179C42490A89F0071A0D2 /* WritingThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B179C32490A89F0071A0D2 /* WritingThumbnailView.swift */; };
+		E6B179C82490ACC70071A0D2 /* WritingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B179C72490ACC70071A0D2 /* WritingListView.swift */; };
+		E6B179CB2490B6400071A0D2 /* AddWritingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B179CA2490B6400071A0D2 /* AddWritingView.swift */; };
 		E6B2A8C82480062C0081E67E /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2A8C72480062C0081E67E /* UIView+.swift */; };
 		E6B2A8CB248321FF0081E67E /* Writing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2A8CA248321FF0081E67E /* Writing.swift */; };
-		E6B2A8CD248322C60081E67E /* WritingListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2A8CC248322C60081E67E /* WritingListController.swift */; };
 		E6B2A8CF24832ECB0081E67E /* WritingListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2A8CE24832ECB0081E67E /* WritingListViewModel.swift */; };
 		E6B2A8D1248347050081E67E /* WritingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2A8D0248347050081E67E /* WritingViewModel.swift */; };
 		F210840C3CD0E2F4A96B68E7 /* Pods_What3Keywords.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF0849661F16F9E6619C4EA /* Pods_What3Keywords.framework */; };
@@ -41,7 +43,7 @@
 		AACAC48ADEF3E8370B147D4C /* Pods_What3KeywordsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_What3KeywordsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF0849661F16F9E6619C4EA /* Pods_What3Keywords.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_What3Keywords.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D69DDECB7DD2D5F9B08BC3DD /* Pods-What3Keywords.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-What3Keywords.debug.xcconfig"; path = "Target Support Files/Pods-What3Keywords/Pods-What3Keywords.debug.xcconfig"; sourceTree = "<group>"; };
-		E6134CE5246D93E800B938E2 /* What3Keywords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = What3Keywords.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6134CE5246D93E800B938E2 /* WhatThreeKeywords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatThreeKeywords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6134CE8246D93E800B938E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6134CEA246D93E800B938E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E6134CEC246D93E800B938E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,10 +54,12 @@
 		E6134CFB246D93EA00B938E2 /* What3KeywordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = What3KeywordsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6134CFF246D93EA00B938E2 /* What3KeywordsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What3KeywordsTests.swift; sourceTree = "<group>"; };
 		E6134D01246D93EA00B938E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E6B2A8C4248000F20081E67E /* WritingThumbnailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingThumbnailCell.swift; sourceTree = "<group>"; };
+		E64F4EB8248E1755007EEC75 /* WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
+		E6B179C32490A89F0071A0D2 /* WritingThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingThumbnailView.swift; sourceTree = "<group>"; };
+		E6B179C72490ACC70071A0D2 /* WritingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingListView.swift; sourceTree = "<group>"; };
+		E6B179CA2490B6400071A0D2 /* AddWritingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWritingView.swift; sourceTree = "<group>"; };
 		E6B2A8C72480062C0081E67E /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		E6B2A8CA248321FF0081E67E /* Writing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Writing.swift; sourceTree = "<group>"; };
-		E6B2A8CC248322C60081E67E /* WritingListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingListController.swift; sourceTree = "<group>"; };
 		E6B2A8CE24832ECB0081E67E /* WritingListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingListViewModel.swift; sourceTree = "<group>"; };
 		E6B2A8D0248347050081E67E /* WritingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +107,7 @@
 		E6134CE6246D93E800B938E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E6134CE5246D93E800B938E2 /* What3Keywords.app */,
+				E6134CE5246D93E800B938E2 /* WhatThreeKeywords.app */,
 				E6134CFB246D93EA00B938E2 /* What3KeywordsTests.xctest */,
 			);
 			name = Products;
@@ -134,6 +138,24 @@
 			path = What3KeywordsTests;
 			sourceTree = "<group>";
 		};
+		E64F4EB7248E1734007EEC75 /* WritingList */ = {
+			isa = PBXGroup;
+			children = (
+				E6B2A8CE24832ECB0081E67E /* WritingListViewModel.swift */,
+			);
+			path = WritingList;
+			sourceTree = "<group>";
+		};
+		E6B179C92490B2230071A0D2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E6B179C32490A89F0071A0D2 /* WritingThumbnailView.swift */,
+				E6B179C72490ACC70071A0D2 /* WritingListView.swift */,
+				E6B179CA2490B6400071A0D2 /* AddWritingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		E6B2A8C62480061D0081E67E /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,11 +167,11 @@
 		E6B2A8C9248321F40081E67E /* Writing */ = {
 			isa = PBXGroup;
 			children = (
-				E6B2A8C4248000F20081E67E /* WritingThumbnailCell.swift */,
+				E6B179C92490B2230071A0D2 /* Views */,
 				E6B2A8CA248321FF0081E67E /* Writing.swift */,
 				E6B2A8D0248347050081E67E /* WritingViewModel.swift */,
-				E6B2A8CC248322C60081E67E /* WritingListController.swift */,
-				E6B2A8CE24832ECB0081E67E /* WritingListViewModel.swift */,
+				E64F4EB7248E1734007EEC75 /* WritingList */,
+				E64F4EB8248E1755007EEC75 /* WriteViewController.swift */,
 			);
 			path = Writing;
 			sourceTree = "<group>";
@@ -184,7 +206,7 @@
 			);
 			name = What3Keywords;
 			productName = What3Keywords;
-			productReference = E6134CE5246D93E800B938E2 /* What3Keywords.app */;
+			productReference = E6134CE5246D93E800B938E2 /* WhatThreeKeywords.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E6134CFA246D93EA00B938E2 /* What3KeywordsTests */ = {
@@ -336,12 +358,14 @@
 				E6B2A8CB248321FF0081E67E /* Writing.swift in Sources */,
 				E6B2A8CF24832ECB0081E67E /* WritingListViewModel.swift in Sources */,
 				E6B2A8D1248347050081E67E /* WritingViewModel.swift in Sources */,
-				E6B2A8CD248322C60081E67E /* WritingListController.swift in Sources */,
 				E6134CED246D93E800B938E2 /* ViewController.swift in Sources */,
-				E6B2A8C5248000F20081E67E /* WritingThumbnailCell.swift in Sources */,
 				E6134CE9246D93E800B938E2 /* AppDelegate.swift in Sources */,
+				E6B179C42490A89F0071A0D2 /* WritingThumbnailView.swift in Sources */,
 				E6134CEB246D93E800B938E2 /* SceneDelegate.swift in Sources */,
+				E6B179CB2490B6400071A0D2 /* AddWritingView.swift in Sources */,
+				E64F4EB9248E1755007EEC75 /* WriteViewController.swift in Sources */,
 				E6B2A8C82480062C0081E67E /* UIView+.swift in Sources */,
+				E6B179C82490ACC70071A0D2 /* WritingListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,7 +534,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.krgoodnews.What3Keywords;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WhatThreeKeywords;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -529,7 +553,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.krgoodnews.What3Keywords;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WhatThreeKeywords;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
