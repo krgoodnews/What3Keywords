@@ -10,16 +10,14 @@ import SwiftUI
 
 struct AddWritingView: View {
     @State var text: String = ""
+    @State private var textStyle = UIFont.TextStyle.body
+
     var body: some View {
         NavigationView {
-            Text("dskd")
-            .navigationBarTitle("#두부, 그리고, 꿈")
+            TextView(text: $text, textStyle: $textStyle)
+                .padding(16)
+                .navigationBarTitle("#두부, 그리고, 꿈", displayMode: .inline)
         }
-//        VStack {
-//            TextField("dkdkdd\nsldfksdf", text: $text)
-//                .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .top)
-        //        }
-
     }
 }
 
