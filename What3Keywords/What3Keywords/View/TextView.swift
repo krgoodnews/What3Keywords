@@ -19,6 +19,7 @@ struct TextView: UIViewRepresentable {
     @Binding var textStyle: UIFont.TextStyle
 
     let placeholder: String
+
     // MARK: - View
 
     private let placeholderLabel = UILabel().then {
@@ -53,19 +54,19 @@ struct TextView: UIViewRepresentable {
     }
 
     func updateUIView(_ uiView: UITextView, context: Context) {
+        placeholderLabel.isHidden = text.isEmpty.not()
         uiView.text = text
         uiView.font = .preferredFont(forTextStyle: textStyle)
-        placeholderLabel.isHidden = !text.isEmpty
     }
 
     // MARK: - Coordinator
 
     func makeCoordinator() -> Coordinator {
-        return Coordinator($text)
+        Coordinator($text)
     }
 
     class Coordinator: NSObject, UITextViewDelegate {
-        var text: Binding<String>
+        private var text: Binding<String>
 
         init(_ text: Binding<String>) {
             self.text = text

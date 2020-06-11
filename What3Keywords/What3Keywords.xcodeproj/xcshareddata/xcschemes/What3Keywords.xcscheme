@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E6134CE4246D93E800B938E2"
-               BuildableName = "What3Keywords.app"
+               BuildableName = "WhatThreeKeywords.app"
                BlueprintName = "What3Keywords"
                ReferencedContainer = "container:What3Keywords.xcodeproj">
             </BuildableReference>
@@ -55,7 +55,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E6134CE4246D93E800B938E2"
-            BuildableName = "What3Keywords.app"
+            BuildableName = "WhatThreeKeywords.app"
             BlueprintName = "What3Keywords"
             ReferencedContainer = "container:What3Keywords.xcodeproj">
          </BuildableReference>
@@ -72,7 +72,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E6134CE4246D93E800B938E2"
-            BuildableName = "What3Keywords.app"
+            BuildableName = "WhatThreeKeywords.app"
             BlueprintName = "What3Keywords"
             ReferencedContainer = "container:What3Keywords.xcodeproj">
          </BuildableReference>

@@ -15,11 +15,13 @@
 		E6134CF2246D93E900B938E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6134CF1246D93E900B938E2 /* Assets.xcassets */; };
 		E6134CF5246D93E900B938E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6134CF3246D93E900B938E2 /* LaunchScreen.storyboard */; };
 		E6134D00246D93EA00B938E2 /* What3KeywordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6134CFF246D93EA00B938E2 /* What3KeywordsTests.swift */; };
+		E62B75AF2492230600934724 /* Bool+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62B75AE2492230600934724 /* Bool+.swift */; };
 		E64F4EB9248E1755007EEC75 /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64F4EB8248E1755007EEC75 /* WriteViewController.swift */; };
 		E6B179C42490A89F0071A0D2 /* WritingThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B179C32490A89F0071A0D2 /* WritingThumbnailView.swift */; };
 		E6B179C82490ACC70071A0D2 /* WritingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B179C72490ACC70071A0D2 /* WritingListView.swift */; };
 		E6B179CB2490B6400071A0D2 /* AddWritingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B179CA2490B6400071A0D2 /* AddWritingView.swift */; };
 		E6B179CE249195430071A0D2 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B179CD249195430071A0D2 /* TextView.swift */; };
+		E6B179D2249212B10071A0D2 /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B179D1249212B10071A0D2 /* KeyboardResponder.swift */; };
 		E6B2A8C82480062C0081E67E /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2A8C72480062C0081E67E /* UIView+.swift */; };
 		E6B2A8CB248321FF0081E67E /* Writing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2A8CA248321FF0081E67E /* Writing.swift */; };
 		E6B2A8CF24832ECB0081E67E /* WritingListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2A8CE24832ECB0081E67E /* WritingListViewModel.swift */; };
@@ -55,11 +57,13 @@
 		E6134CFB246D93EA00B938E2 /* What3KeywordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = What3KeywordsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6134CFF246D93EA00B938E2 /* What3KeywordsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What3KeywordsTests.swift; sourceTree = "<group>"; };
 		E6134D01246D93EA00B938E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E62B75AE2492230600934724 /* Bool+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+.swift"; sourceTree = "<group>"; };
 		E64F4EB8248E1755007EEC75 /* WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
 		E6B179C32490A89F0071A0D2 /* WritingThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingThumbnailView.swift; sourceTree = "<group>"; };
 		E6B179C72490ACC70071A0D2 /* WritingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingListView.swift; sourceTree = "<group>"; };
 		E6B179CA2490B6400071A0D2 /* AddWritingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWritingView.swift; sourceTree = "<group>"; };
 		E6B179CD249195430071A0D2 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		E6B179D1249212B10071A0D2 /* KeyboardResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
 		E6B2A8C72480062C0081E67E /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		E6B2A8CA248321FF0081E67E /* Writing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Writing.swift; sourceTree = "<group>"; };
 		E6B2A8CE24832ECB0081E67E /* WritingListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingListViewModel.swift; sourceTree = "<group>"; };
@@ -128,6 +132,7 @@
 				E6134CF1246D93E900B938E2 /* Assets.xcassets */,
 				E6134CF3246D93E900B938E2 /* LaunchScreen.storyboard */,
 				E6134CF6246D93E900B938E2 /* Info.plist */,
+				E6B179D1249212B10071A0D2 /* KeyboardResponder.swift */,
 			);
 			path = What3Keywords;
 			sourceTree = "<group>";
@@ -171,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				E6B2A8C72480062C0081E67E /* UIView+.swift */,
+				E62B75AE2492230600934724 /* Bool+.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -373,7 +379,9 @@
 				E6134CE9246D93E800B938E2 /* AppDelegate.swift in Sources */,
 				E6B179C42490A89F0071A0D2 /* WritingThumbnailView.swift in Sources */,
 				E6134CEB246D93E800B938E2 /* SceneDelegate.swift in Sources */,
+				E62B75AF2492230600934724 /* Bool+.swift in Sources */,
 				E6B179CB2490B6400071A0D2 /* AddWritingView.swift in Sources */,
+				E6B179D2249212B10071A0D2 /* KeyboardResponder.swift in Sources */,
 				E64F4EB9248E1755007EEC75 /* WriteViewController.swift in Sources */,
 				E6B179CE249195430071A0D2 /* TextView.swift in Sources */,
 				E6B2A8C82480062C0081E67E /* UIView+.swift in Sources */,
