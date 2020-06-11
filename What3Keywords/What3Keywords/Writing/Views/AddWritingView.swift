@@ -14,7 +14,7 @@ struct AddWritingView: View {
 
     var body: some View {
         NavigationView {
-            TextView(text: $text, textStyle: $textStyle)
+            TextView(text: $text, textStyle: $textStyle, placeholder: "본문을 입력해주세요")
                 .padding(16)
                 .navigationBarTitle("#두부, 그리고, 꿈", displayMode: .inline)
         }
