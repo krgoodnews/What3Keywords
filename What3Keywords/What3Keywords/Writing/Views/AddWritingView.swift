@@ -17,13 +17,18 @@ struct AddWritingView: View {
 
     var body: some View {
         NavigationView {
-            TextView(text: $text, textStyle: $textStyle, placeholder: "본문을 입력해주세요")
+            TextView(text: $text, textStyle: $textStyle)
                 .padding(16)
                 .padding(.bottom, keyboard.currentHeight)
+                .overlay(Text("떠오르는 대로..")
+                    .font(.headline)
+                    .foregroundColor(.gray)
+                    .padding(.top, 44)
+                    .opacity(text.isEmpty ? 1 : 0),
+                         alignment: .top)
 
                 .navigationBarTitle("#두부, 그리고, 꿈", displayMode: .inline)
         }
-        
     }
 }
 
